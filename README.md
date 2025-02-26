@@ -41,10 +41,10 @@ poetry install
 
 - [Docker](https://www.docker.com/)
 
-#### Option 1: Use the latest image from Docker Hub 
+#### Option 1: Use the latest image from [Docker Hub](https://hub.docker.com/repository/docker/jahudak/ddos-detector/general) 
 
 ```PowerShell
-docker run jahudak/ddos-detector
+docker run jahudak/ddos-detector:<tag>
 ```
 
 #### Option 2: Build and deploy locally 

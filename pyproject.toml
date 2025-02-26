@@ -1,0 +1,30 @@
+[project]
+name = "ddos-detector"
+version = "0.1.0"
+description = "Semester project for Advanced Data Analysis Methods Laboratory"
+authors = [
+    {name = "jahudak",email = "100032984+jahudak@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pytorch-lightning (>=2.5.0,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "prettytable (>=3.14.0,<4.0.0)",
+    "plotly (>=6.0.0,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    {include = "charts", from = "src"},
+    {include = "data", from = "src"}
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

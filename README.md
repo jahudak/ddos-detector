@@ -21,12 +21,12 @@ The network data is not included in this repository as it is currently under rev
 #### Requirements 
 
 - [Python v3.9](https://www.python.org/downloads/release/python-3921/) installed and on path (at least)  
-- [Poetry v2.1](https://python-poetry.org/docs/#installation) installed and on path (at least)
+- [Poetry v1.8](https://python-poetry.org/docs/#installation) installed and on path (at least)
 
 [Activate the environment](https://python-poetry.org/docs/managing-environments/#activating-the-environment), e.g. in PowerShell:
 
 ```PowerShell
-Invoke-Expression (poetry env activate)
+poetry shell
 ```
 
 Install the dependencies:
@@ -39,6 +39,20 @@ poetry install
 
 #### Requirements 
 
+- [Docker](https://www.docker.com/)
+
+#### Option 1: Use the latest image from [Docker Hub](https://hub.docker.com/repository/docker/jahudak/ddos-detector/general) 
+
+```PowerShell
+docker run jahudak/ddos-detector:<tag>
+```
+
+#### Option 2: Build and deploy locally 
+
+```PowerShell
+docker build -t ddos-detector .
+docker run ddos-detector
+```
 
 ## 📜 License
 

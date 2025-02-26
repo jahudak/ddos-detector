@@ -1,30 +1,32 @@
-[project]
+[tool.poetry]
 name = "ddos-detector"
 version = "0.1.0"
 description = "Semester project for Advanced Data Analysis Methods Laboratory"
-authors = [
-    {name = "jahudak",email = "100032984+jahudak@users.noreply.github.com"}
-]
+authors = ["jahudak <100032984+jahudak@users.noreply.github.com>"]
+license = "Apache License 2.0"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "numpy (>=2.2.3,<3.0.0)",
-    "pandas (>=2.2.3,<3.0.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)",
-    "pytorch-lightning (>=2.5.0,<3.0.0)",
-    "matplotlib (>=3.10.0,<4.0.0)",
-    "seaborn (>=0.13.2,<0.14.0)",
-    "prettytable (>=3.14.0,<4.0.0)",
-    "plotly (>=6.0.0,<7.0.0)"
+
+packages = [
+    { include = "data", from = "src"}, 
+    { include = "charts", from = "src" }
 ]
 
-[tool.poetry]
-packages = [
-    {include = "charts", from = "src"},
-    {include = "data", from = "src"}
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = [
+  {url = "https://download.pytorch.org/whl/cpu/torch-2.4.1%2Bcpu-cp312-cp312-linux_x86_64.whl", markers = "sys_platform == 'linux'"},
+  {url = "https://download.pytorch.org/whl/cpu/torch-2.4.1%2Bcpu-cp312-cp312-win_amd64.whl", markers = "sys_platform == 'win32'"}
 ]
+lightning = "^2.4.0"
+scikit-learn = "^1.5.2"
+numpy = "^2.1.1"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+plotly = "^6.0.0"
+prettytable = "^3.14.0"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

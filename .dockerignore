@@ -1,0 +1,22 @@
+# virtual environments
+.venv
+venv/
+env/
+
+# version control
+.git/
+.gitignore
+
+# documentation
+README.md
+docs/
+*.png
+*.svg
+*.jpg
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.pt

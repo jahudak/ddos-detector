@@ -1,4 +1,4 @@
-# ddos-detector
+# 🚨🤖 ddos-detector
 Semester project for Advanced Data Analysis Methods Laboratory
 
 Team members: 

@@ -6,3 +6,5 @@ matplotlib==3.9.2
 seaborn==0.13.2
 plotly==6.0.0
 prettytable==3.14.0
+requests==2.32.3
+pyarrow==19.0.1

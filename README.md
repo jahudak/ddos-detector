@@ -46,4 +46,8 @@ The `tree_based.ipynb` file covers all attempts with tree-based models, and `neu
 
 ### M5 
 
+In this milestone, we focused on improvements, which included hyperparameter optimization. To make this more effective, we used our device resources for faster development. 
+
+The `catboost/main.py` script contains the WandB integration with the sweeps. 
+
 ### M6

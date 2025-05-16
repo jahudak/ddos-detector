@@ -36,9 +36,13 @@ The most important file is `visualization.ipynb`, which features all the general
 
 Feature engineering and augmentation required many experiments, and we continued our work in Google Colaboratory because of this.
 
-The `augmentation.ipynb` contains our augmentation attempts with various methods, and `feature_engineering.ipynb` covers the feature engineering experiments.
+The `augmentation.ipynb` file contains our augmentation attempts with various methods, and `feature_engineering.ipynb` covers the feature engineering experiments.
 
 ### M4 
+
+Testing machine learning solutions were also a trial-and-error heavy iteration, and we remained in notebooks for efficiency. 
+
+The `tree_based.ipynb` file covers all attempts with tree-based models, and `neural_network.ipynb` contains the attempt with our feed-forward neural network.
 
 ### M5 
 

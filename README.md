@@ -51,3 +51,7 @@ In this milestone, we focused on improvements, which included hyperparameter opt
 The `catboost/main.py` script contains the WandB integration with the sweeps. 
 
 ### M6
+
+We continued our work in scripts executed on our devices. 
+
+The `eval.py` file contains our generic evaluator functions, which we used for comparing the performances our models. We searched for optimal parameters in the scripts with the `sweep` prefix. Finally, `ensemble.py` covers our best-performing model in this semester.

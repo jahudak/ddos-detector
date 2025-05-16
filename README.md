@@ -28,6 +28,10 @@ The most important file is `ddos_data_preprocessor.py`, which includes all the p
 
 ### M2 
 
+This was the first milestone, where a full python project was more of an overhead, than a help. We switched to Google Colaboratory, and used the dataset created by our M1 project. 
+
+The most important file is `visualization.ipynb`, which features all the generalized functions for our visualization experiments.
+
 ### M3
 
 ### M4 

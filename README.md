@@ -28,11 +28,15 @@ The most important file is `ddos_data_preprocessor.py`, which includes all the p
 
 ### M2 
 
-This was the first milestone, where a full python project was more of an overhead, than a help. We switched to Google Colaboratory, and used the dataset created by our M1 project. 
+This was the first milestone, where a full python project was more of an overhead, than a help. We switched to Google Colaboratory, and used the dataset created by our M1 project, converted to parquet by our script. 
 
 The most important file is `visualization.ipynb`, which features all the generalized functions for our visualization experiments.
 
 ### M3
+
+Feature engineering and augmentation required many experiments, and we continued our work in Google Colaboratory because of this.
+
+The `augmentation.ipynb` contains our augmentation attempts with various methods, and `feature_engineering.ipynb` covers the feature engineering experiments.
 
 ### M4 
 

@@ -48,7 +48,7 @@ The `tree_based.ipynb` file covers all attempts with tree-based models, and `neu
 
 In this milestone, we focused on improvements, which included hyperparameter optimization. To make this more effective, we used our device resources for faster development. 
 
-The `catboost/main.py` script contains the WandB integration with the sweeps. 
+The `catboost/main.py` script contains the WandB integration with the sweeps, and the `neural_network` folder contains the improvements and fixes for our neural network.
 
 ### M6
 
